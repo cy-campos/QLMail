@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: QLMail
+Version: 0.0.1
+Summary: AWS Python Lambda Layer for Sending Emails via SES
+Home-page: https://github.com/cy-campos/QLMail
+Author: Christopher Campos
+Author-email: cy.campos1983@gmail.com
+License: MIT
+Description: # QLMail
+        An Amazon Web Services (AWS) Lambda Layer Package for sending emails using the AWS Simple Email Service (SES)
+        
+        The intention of this repo is to be able to add a common SES Email package as a layer to any AWS Lambda function that requires email functionality.
+        
+        
+        Change Log
+        ===========
+        
+        0.0.1 (02/05/2021)
+        ------------------
+        - Initial Commit
+Keywords: AWS Lambda SES Layer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
