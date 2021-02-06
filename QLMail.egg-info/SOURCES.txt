@@ -3,6 +3,7 @@ LICENSE.txt
 MANIFEST.in
 README.txt
 __init__.py
+requirements.txt
 setup.py
 QLMail.egg-info/PKG-INFO
 QLMail.egg-info/SOURCES.txt

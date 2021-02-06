@@ -10,7 +10,7 @@ classifiers = [
 
 setup(
     name='QLMail',
-    version='0.0.1',
+    version='0.0.2',
     description='AWS Python Lambda Layer for Sending Emails via SES',
     long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
     url='https://github.com/cy-campos/QLMail',
