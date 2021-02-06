@@ -1,6 +1,23 @@
 Change Log
 ===========
 
+0.0.6 (02/05/2021)
+------------------
+- Fixed typo in change log
+
+0.0.5 (02/05/2021)
+------------------
+- Synced get_version to the correct version
+
+0.0.4 (02/05/2021)
+------------------
+- Added boto3 as a requirement to setup.py
+
+0.0.3 (02/05/2021)
+------------------
+- Put QLMail in a separate folder
+- Updated setup.py so that the Package points to QLMail
+
 0.0.2 (02/05/2021)
 ------------------
 - Added new requirements

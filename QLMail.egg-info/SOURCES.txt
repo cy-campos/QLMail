@@ -2,12 +2,13 @@ CHANGELOG.txt
 LICENSE.txt
 MANIFEST.in
 README.txt
-__init__.py
 requirements.txt
 setup.py
+QLMail/__init__.py
 QLMail.egg-info/PKG-INFO
 QLMail.egg-info/SOURCES.txt
 QLMail.egg-info/dependency_links.txt
+QLMail.egg-info/requires.txt
 QLMail.egg-info/top_level.txt
 venv/bin/jp.py
 venv/bin/rst2html.py

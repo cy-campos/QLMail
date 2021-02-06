@@ -8,7 +8,7 @@ logger.setLevel(logging.INFO)
 
 
 def get_version():
-    return "QLMail version 0.0.2"
+    return "QLMail version 0.0.6"
 
 
 class Client:

@@ -10,7 +10,7 @@ classifiers = [
 
 setup(
     name='QLMail',
-    version='0.0.2',
+    version='0.0.6',
     description='AWS Python Lambda Layer for Sending Emails via SES',
     long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
     url='https://github.com/cy-campos/QLMail',
@@ -19,6 +19,6 @@ setup(
     license='MIT',
     classifiers=classifiers,
     keywords='AWS Lambda SES Layer',
-    packages=find_packages(),
-    install_requires=['']
+    packages=['QLMail'],
+    install_requires=['boto3'],
 )
