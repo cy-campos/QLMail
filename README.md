@@ -1,4 +1,4 @@
-# QLMail v0.0.6
+# QLMail v0.0.7
 
 Made with python 3.8
 
