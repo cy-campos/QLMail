@@ -11,52 +11,82 @@ def get_version():
     return "QLMail version 0.0.6"
 
 
-class Client:
+class EmailClient:
     @property
     def sender(self):
         return self.__sender
+
+    def set_sender(self, value):
+        self.__sender = value
 
     @property
     def recipient(self):
         return self.__recipient
 
+    def set_recipient(self, value):
+        self.__recipient = value
+
     @property
     def aws_region(self):
         return self.__aws_region
+
+    def set_aws_region(self, value):
+        self.__aws_region = value
 
     @property
     def subject(self):
         return self.__subject
 
+    def set_subject(self, value):
+        self.__subject = value
+
     @property
     def body_text(self):
         return self.__body_text
+
+    def set_body_text(self, value):
+        self.__body_text = value
 
     @property
     def body_html(self):
         return self.__body_html
 
+    def set_body_html(self, value):
+        self.__body_html = value
+
     @property
     def charset(self):
         return self.__charset
 
-    def __init__(
-            self,
-            sender,
-            recipient,
-            subject,
-            body_text,
-            body_html,
-            aws_region,
-            charset
-    ):
-        self.__sender = sender
-        self.__recipient = recipient
-        self.__subject = subject
-        self.__body_text = body_text
-        self.__body_html = body_html
-        self.__aws_region = aws_region
-        self.__charset = charset
+    def set_charset(self, value):
+        self.__charset = value
+
+    def __init__(self):
+        self.__sender = ""
+        self.__recipient = ""
+        self.__subject = ""
+        self.__body_text = ""
+        self.__body_html = ""
+        self.__aws_region = ""
+        self.__charset = ""
+
+    # def __init__(
+    #         self,
+    #         sender,
+    #         recipient,
+    #         subject,
+    #         body_text,
+    #         body_html,
+    #         aws_region,
+    #         charset
+    # ):
+    #     self.__sender = sender
+    #     self.__recipient = recipient
+    #     self.__subject = subject
+    #     self.__body_text = body_text
+    #     self.__body_html = body_html
+    #     self.__aws_region = aws_region
+    #     self.__charset = charset
 
     def send(self):
         # Replace sender@example.com with your "From" address.
@@ -76,7 +106,7 @@ class Client:
         AWS_REGION = self.__aws_region
 
         # The subject line for the email.
-        SUBJECT = self.__sender
+        SUBJECT = self.__subject
 
         # The email body for recipients with non-HTML email clients.
         BODY_TEXT = self.__body_text
