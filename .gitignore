@@ -1,3 +1,4 @@
 venv/
 .DS_STORE
 .idea/
+dist/
